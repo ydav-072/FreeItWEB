@@ -1,0 +1,48 @@
+body {
+    background-image: url(java-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.searchForm {
+    margin: 0;
+    position: absolute;
+    top: 12%;
+    left: 43%;
+}
+
+#btn {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-width: 1px;
+    border-radius: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.ghost-button-border-color {
+    display: inline-block;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: border-color 0.3s ease-out,
+    color 0.3s ease-out;
+}
+
+.ghost-button-border-color:hover,
+.ghost-button-border-color:active {
+    background-color: #2758d5;
+    color: white;
+    border-color: #2758d5;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    margin: auto;
+}
