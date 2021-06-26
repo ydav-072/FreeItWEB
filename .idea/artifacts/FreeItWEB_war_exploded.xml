@@ -13,6 +13,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="FreeItWEB" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: javax.el:el-api:2.2" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/FreeItWEB-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
