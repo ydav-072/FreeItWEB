@@ -21,7 +21,7 @@ public class ResourceUtil {
         Properties property = new Properties();
 
         try {
-            fis = new FileInputStream("C:/Users/admin/IdeaProjects/FreeItWEB/src/main/resources/connection.properties");
+            fis = new FileInputStream("/home/ydav-07/IdeaProjects/FreeItWEB/src/main/resources/connection.properties");
             property.load(fis);
 
             db_driver = property.getProperty("db_driver");

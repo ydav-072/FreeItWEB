@@ -16,7 +16,11 @@
                 <div class="wrap-login100 p-t-50 p-b-90">
                     <span class="login100-form-title p-b-51">
                         <b>Welcome, ${userObj.name}</b><br>
-                        <a href = <c:url value="logout.jsp"/>>Logout</a>
+                        <form class="login100-form validate-form flex-sb flex-w" name="login" action="logout" method="post">
+                        <div class="container-login100-form-btn m-t-17">
+                            <input name="loginSubmit" type="submit" class="login100-form-btn" value="Logout">
+                        </div>
+                        </form>
                     </span>
                 </div>
             </div>
